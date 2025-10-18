@@ -27,7 +27,7 @@ function Home(){
             <span id='chat-content'>
                 <h1>Assistente Virtual</h1>
                 {<span>{output['data']}</span>}
-                <input autofocus type="text" name="input-user" placeholder="Digite alguma coisa aqui" ref={inputMessage}/>
+                <input autoFocus type="text" name="input-user" placeholder="Digite alguma coisa aqui" ref={inputMessage}/>
                 <button type="button" onClick={postInput}>Enviar</button>
             </span>
         </div>
