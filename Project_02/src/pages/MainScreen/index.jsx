@@ -1,5 +1,7 @@
 import './style.css'
 import RightArrow from '../../assets/right-arrow.png'
+import Timer from '../../assets/timer.png'
+import Plus from '../../assets/plus.png'
 
 function MainScreen() {
 
@@ -15,10 +17,10 @@ function MainScreen() {
                     </button>
                     <div id="additional-buttons">
                         <button type="button">
-                            <img src={RightArrow} alt="Send Button" />
+                            <img src={Plus} alt="Send Button" />
                         </button>
                         <button type="button">
-                            <img src={RightArrow} alt="Send Button" />
+                            <img src={Timer} alt="Send Button" />
                         </button>
                     </div>
                 </form>
