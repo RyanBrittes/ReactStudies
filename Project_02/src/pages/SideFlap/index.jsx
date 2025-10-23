@@ -7,7 +7,7 @@ function SideFlap(){
 
     return(
         <div id="side-flap-container">
-            <button type="button">
+            <button type="button" >
                 <img src={Menu} alt="Bar menu to open the side flap" />
             </button>
             <button type="button">
