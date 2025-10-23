@@ -1,13 +1,12 @@
-#main-container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 100px;
-}
-
 #chat-container {
-    width: 800px;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
 
     & h2 {
         text-align: center;
@@ -19,13 +18,13 @@
         margin-top: 50px;
         background-color: #927474;
         border-radius: 30px;
-        /*padding-left: 10px;*/
 
         & button {
         height: 40px;
         width: 40px;
         border: none;
         background: none;
+        margin-right: 10px;
 
             & img {
                 height: 40px;
